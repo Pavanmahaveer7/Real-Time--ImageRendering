@@ -1,4 +1,4 @@
-# Real-Time--ImageRendering
+**# Real-Time--ImageRendering**
 
 Project Explanation:This project implements edge detection using the Sobel operator with CUDA (using PyCUDA) for parallel computation on the GPU. The Sobel operator is a popular method for detecting edges in images by computing the gradient magnitude. The project includes the following components:
 
@@ -14,7 +14,7 @@ Displaying Results: The detected edges are displayed to the user for visualizati
 
 
 
-Libraries used in this Project:
+**Libraries used in this Project:**
 
 NumPy: NumPy is used for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently. In this project, NumPy is used for array manipulation and mathematical operations, such as image processing.
 
@@ -27,8 +27,7 @@ PyCUDA: PyCUDA is a Python wrapper for NVIDIA's CUDA API, which allows Python pr
 Pyngrok: Pyngrok is a Python wrapper for ngrok, a service that allows you to expose local servers behind NATs and firewalls to the public internet over secure tunnels. In this project, Pyngrok is used to create a public URL for accessing the Streamlit app running on a local server, making it accessible from anywhere.
 
 
-
-Internal Process:
+**   Internal Process:**
 
 Image Loading: Load the input image using a library like OpenCV or scikit-image.
 Preprocessing: If necessary, preprocess the image (e.g., convert to grayscale) to prepare it for edge detection.
@@ -42,8 +41,7 @@ Visualization:Visualize the edge-detected image using a plotting library like Ma
 Cleanup:Free any allocated memory and release GPU resources to ensure proper memory management and prevent memory leaks.
 
 
-
-Sobel Edge Detection: 
+** sobel Edge Detection: **
 The Sobel operator is a popular method for edge detection in image processing. It works by approximating the gradient of the image intensity function using convolution with a pair of 3x3 kernels. These kernels are designed to compute the gradient of the image along the x-axis (horizontal gradient) and the y-axis (vertical gradient).
 
 Here's how the Sobel operator works:
